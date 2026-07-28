@@ -1,0 +1,38 @@
+name: Security configuration question
+description: Ask a non-sensitive question about security settings, headers, or hardening — not a vulnerability report.
+title: "[Security config]: "
+labels: ["security", "question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not report a vulnerability using this form.** If you believe
+        you've found a security vulnerability, follow
+        [SECURITY.md](https://github.com/protogin/.github/blob/main/SECURITY.md)
+        instead — use GitHub private vulnerability reporting on the
+        affected repository, or email daniel@danielgarcia.info. Anything
+        submitted through this public form is visible to everyone.
+
+        This form is only for general, non-sensitive questions — for
+        example, asking why a security setting behaves a certain way, or
+        suggesting a hardening improvement that doesn't describe an
+        exploitable weakness.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a question or suggestion, not a vulnerability report.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or suggestion
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+    validations:
+      required: false

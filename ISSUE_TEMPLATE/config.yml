@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/protogin/.github/security/policy
+    about: Please do not report vulnerabilities as public issues. Follow SECURITY.md instead.
+  - name: Ask a question or get support
+    url: https://github.com/protogin/.github/blob/main/SUPPORT.md
+    about: General questions about using or contributing to a Protogin repository.
