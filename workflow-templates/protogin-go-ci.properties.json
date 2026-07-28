@@ -1,0 +1,7 @@
+{
+  "name": "Protogin Go CI",
+  "description": "Build, vet, test, and lint a Go module with the pinned Protogin Go toolchain.",
+  "iconName": "go",
+  "categories": ["Go", "Continuous integration"],
+  "filePatterns": ["go\\.mod$"]
+}
