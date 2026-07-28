@@ -1,0 +1,7 @@
+{
+  "name": "Protogin Node CI",
+  "description": "Install, lint, build, and test a pnpm-managed Node.js project with the pinned Protogin Node toolchain.",
+  "iconName": "nodejs",
+  "categories": ["JavaScript", "Continuous integration"],
+  "filePatterns": ["package\\.json$"]
+}
